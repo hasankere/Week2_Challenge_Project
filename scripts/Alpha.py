@@ -1,4 +1,13 @@
 import pandas as pd
+import scipy.stats as stats
+import numpy as np
+from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.metrics import mean_absolute_error
+from sklearn.metrics import mean_squared_error
+import matplotlib.pyplot as plt
+import seaborn as sns
 #read file from location  
 file_path = "C:\\Users\\Hasan\\Desktop\\data science folder\\MachineLearningRating_v3.txt"
 # Read the file (adjust delimiter as necessary)
